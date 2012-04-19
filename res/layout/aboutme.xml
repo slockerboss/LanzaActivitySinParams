@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AboutMe" />
+
+    <Button
+        android:id="@+id/BotonFinalizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Finalizar" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Esta es una actividad que se ha iniciado sin parametros, porque estaba pensada asi, \npulsa finalizar para volver...\n\nNota:Realmente, finalizar, llama a finish() que mata esta actividad, y es Android quien vuelve a la actividad anterior, que es la principal...\n\n\tVamos que el boton no vuelve, si no que finaliza, por eso se llama así, aunque para el usuario final sería mas claro, volver...)" />
+
+</LinearLayout>
